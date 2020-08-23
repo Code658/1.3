@@ -1,3 +1,11 @@
 Rich Kleinhenz
 
 The new repository is not present
+
+The folder (repository) is now there but there are two verisons of questions.txt
+
+yes
+
+2
+
+they are different verisons of the same file and because they have different file paths the new verison didnt copy over the old one 
