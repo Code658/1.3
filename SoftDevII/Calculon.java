@@ -12,6 +12,10 @@ public class Calculon {
     }
 
     public static double divide(double x, double y) {
+        if(x < 10){
+            System.out.println("x is less than 10");
+            System.out.println("blah blah blah");
+        }
         return x / y;
     }
     public static void main(String[] args) {
