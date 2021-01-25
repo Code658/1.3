@@ -9,7 +9,15 @@ public class CountUp {
         }
         return sum;
     }
+    public static int countFor(int n) {
+        int sum = 0;
+        for (int count = 0; count <= n; count++) {
+            System.out.println(count);
+            sum += count;
+        }
+        return sum;
+    }
     public static void main(String[] args) {
-        System.out.println(countWhile(100));
+        System.out.println(countFor(100));
     }
 }
